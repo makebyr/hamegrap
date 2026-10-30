@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Fondo blanco -->
+  <rect width="100" height="100" fill="#FFFFFF" />
+
+  <!-- Piernas de palito -->
+  <path d="M 40 68 L 32 90 M 60 68 L 68 90" stroke="#111111" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Brazos de palito -->
+  <!-- Brazo izquierdo extendido -->
+  <path d="M 28 48 L 12 55" stroke="#111111" stroke-width="4" stroke-linecap="round" />
+  <!-- Brazo derecho sosteniendo el control remoto -->
+  <path d="M 72 48 L 84 52" stroke="#111111" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Control Remoto / Mando -->
+  <rect x="80" y="44" width="16" height="18" rx="3" fill="#333333" stroke="#111111" stroke-width="1.5" />
+  <!-- Botones del control -->
+  <circle cx="84" cy="50" r="1.5" fill="#FF4444" />
+  <circle cx="92" cy="50" r="1.5" fill="#44FF44" />
+  <circle cx="88" cy="56" r="1.5" fill="#FFFF44" />
+
+  <!-- Cuerpo de Grapa (Caja metálica doblada) -->
+  <path d="M 26 28 C 26 22, 74 22, 74 28 L 74 68 L 26 68 Z" fill="#E0E0E0" stroke="#111111" stroke-width="4" stroke-linejoin="round" />
+  <!-- Sombra/Detalle interior de la grapa -->
+  <path d="M 32 30 L 68 30 M 32 64 L 68 64" stroke="#B0B0B0" stroke-width="3" />
+
+  <!-- Ojos expressivos -->
+  <circle cx="42" cy="42" r="5" fill="#111111" />
+  <circle cx="58" cy="42" r="5" fill="#111111" />
+  <!-- Brillo en los ojos -->
+  <circle cx="40" cy="40" r="1.5" fill="#FFFFFF" />
+  <circle cx="56" cy="40" r="1.5" fill="#FFFFFF" />
+
+  <!-- Sonrisa pequeña -->
+  <path d="M 45 52 Q 50 56 55 52" stroke="#111111" stroke-width="3" fill="none" stroke-linecap="round" />
+</svg>
